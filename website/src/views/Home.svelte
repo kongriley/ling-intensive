@@ -1,4 +1,6 @@
 <script>
+import ClassButton from '../components/ClassButton.svelte';
+
   import SignupButton from '../components/SignupButton.svelte'
 </script>
 
@@ -31,9 +33,9 @@
 
 <div class="flex justify-center">
 
-  <div class="text-center text-md md:text-lg lg:text-xl mx-8 md:mx-24 lg:mx-40 xl:w-1/2 text-gray-600">
+  <div class="text-md md:text-lg lg:text-xl mx-8 md:mx-24 lg:mx-40 xl:w-1/2 text-gray-600">
 
-    <div class="text-2xl md:text-3xl lg:text-4xl font-medium mb-6 mt-20 text-black">
+    <div class="text-center text-2xl md:text-3xl lg:text-4xl font-medium mb-6 mt-20 text-black">
       What is LINT?
     </div>
 
@@ -45,14 +47,16 @@
       As such, we strive to provide free, high-quality education in linguistics to expand this field to the next generation.
     </div>
     
-    <div class="text-2xl md:text-3xl lg:text-4xl font-medium mt-20 mb-6 text-black">
+    <div class="text-center text-2xl md:text-3xl lg:text-4xl font-medium mt-20 mb-6 text-black">
       Programs at LINT
     </div>
 
     <div>
-      LINT offers a free biweekly course designed to prepare students in 7th to 9th grade for the 
-      <a href="https://www.nacloweb.org/" class="text-indigo-600 hover:text-indigo-800">NACLO</a> and 
-      <a href="https://ioling.org/" class="text-indigo-600 hover:text-indigo-800">IOL</a>. 
+      LINT offers a free online course designed to prepare students in 7th to 12th grade for the
+      <a href="https://www.nacloweb.org/" class="text-indigo-600 hover:text-indigo-800">NACLO</a> 
+      (North American Computational Linguistics Olympiad) and the
+      <a href="https://ioling.org/" class="text-indigo-600 hover:text-indigo-800">IOL</a> 
+      (International Linguistics Olympiad). 
       Students will investigate features of world languages, including grammar, phonetics, number systems, and writing systems, 
       along with topics in computational linguistics and analytic reasoning.
     </div>
@@ -60,7 +64,7 @@
 
     <div class="mt-20 flex lg:flex-shrink-0 justify-center items-center">
       <div class="text-xl md:text-2xl lg:text-3xl font-medium mr-6">Ready?</div>
-      <SignupButton width=5 height=3 />
+      <ClassButton width=5 height=3 />
     </div>
   </div>
 </div>
