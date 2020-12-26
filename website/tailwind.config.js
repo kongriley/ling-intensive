@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -13,6 +15,9 @@ module.exports = {
         "screen/5": "calc(100vh / 5)",
       }),
     },
+    // colors: {
+    //   gray: colorsGray,
+    // }
   },
   variants: {},
   plugins: [],

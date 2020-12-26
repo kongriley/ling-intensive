@@ -1,7 +1,7 @@
-<div class="sticky top-0 flex flex-wrap items-baseline justify-between md:justify-start px-6 md:px-16 bg-gray-300 z-10 p-4">
+<div class="sticky top-0 flex flex-wrap items-baseline justify-between md:justify-start px-6 md:px-16 bg-indigo-100 z-10 p-4">
 	<div class="flex-none mr-8 text-lg md:text-xl font-semibold">
     <a href="/">
-      Linguistics Intensive
+      LINT
     </a>
 	</div>
 	<div class="flex items-center ">

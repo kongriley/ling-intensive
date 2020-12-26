@@ -28,5 +28,7 @@
 <Navbar/>
 
 <div>
-	<svelte:component this={page}/>
+		<svelte:component this={page} />
 </div>
+
+<div class="footer mb-24 md:mb-40"></div>

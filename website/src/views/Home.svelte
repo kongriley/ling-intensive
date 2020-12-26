@@ -1,39 +1,66 @@
-<style>
+<script>
+  import SignupButton from '../components/SignupButton.svelte'
+</script>
 
+<style>
+  .hero-height {
+    height: 50vh;
+  }
+  @media (max-height: 640px) {
+    .hero-height {
+      height: 100vh;
+    }
+  }
 
 </style>
 
-<div class="relative">
-  <div class="h-screen/2 bg-gradient-to-b from-gray-300 to-white">
-    <div class="relative mx-auto max-w-screen-xl pt-10 sm:pt-12 md:pt-16 lg:pt-20 px-6 lg:px-8 xl:pt-28">
-      <div class="sm:text-center lg:text-left">
-        <div class="text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-          Welcome to the 
-          <br>
-          Linguistics Intensive!
-        </div>
-        <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-        </p>
+<div class="md:hero-height md:min-h-0 bg-gradient-to-b from-indigo-100 to-white">
+  <div class="relative mx-auto max-w-screen-xl pt-12 md:pt-16 lg:pt-20 px-6 lg:px-16 xl:pt-28">
+    <div class="sm:text-center lg:text-left">
+      <div class="text-4xl tracking-tight leading-10 font-semibold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+        Welcome to the 
+        <br>
+        Linguistics Intensive!
       </div>
+      <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+        Spreading the joy of logic and linguistics to aspiring linguists. Run by students, for students.
+      </p>
     </div>
   </div>
-
-  
-  
-  <div class="text-center text-2xl md:text-3xl lg:text-4xl font-medium">Why Linguistics Intensive?</div>
-  <div class="text-center text-2xl md:text-3xl lg:text-4xl font-medium">Programs</div>
-  
-  <div class="mt-8 flex lg:flex-shrink-0 justify-center">
-    <div class="inline-flex rounded-md shadow">
-      <a href="/signup" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-        Sign up
-      </a>
-    </div>
-  </div>
-  
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br>
-as
+<div class="flex justify-center">
+
+  <div class="text-center text-md md:text-lg lg:text-xl mx-8 md:mx-24 lg:mx-40 xl:w-1/2 text-gray-600">
+
+    <div class="text-2xl md:text-3xl lg:text-4xl font-medium mb-6 mt-20 text-black">
+      What is LINT?
+    </div>
+
+    <div>
+      The <span class="font-bold">Lin</span>guistics <span class="font-bold">Int</span>ensive (LINT, pronounced /lɪnt/) 
+      aims to bring linguistics and logical thinking to a wider audience.
+      We recognize that linguistics is often overlooked in the school curriculum and as an academic field;
+      virtually no schools offer classes in linguistics, and there is a lack of resources accessible to younger students.
+      As such, we strive to provide free, high-quality education in linguistics to expand this field to the next generation.
+    </div>
+    
+    <div class="text-2xl md:text-3xl lg:text-4xl font-medium mt-20 mb-6 text-black">
+      Programs at LINT
+    </div>
+
+    <div>
+      LINT offers a free biweekly course designed to prepare students in 7th to 9th grade for the 
+      <a href="https://www.nacloweb.org/" class="text-indigo-600 hover:text-indigo-800">NACLO</a> and 
+      <a href="https://ioling.org/" class="text-indigo-600 hover:text-indigo-800">IOL</a>. 
+      Students will investigate features of world languages, including grammar, phonetics, number systems, and writing systems, 
+      along with topics in computational linguistics and analytic reasoning.
+    </div>
+    
+
+    <div class="mt-20 flex lg:flex-shrink-0 justify-center items-center">
+      <div class="text-xl md:text-2xl lg:text-3xl font-medium mr-6">Ready?</div>
+      <SignupButton width=5 height=3 />
+    </div>
+  </div>
+</div>
