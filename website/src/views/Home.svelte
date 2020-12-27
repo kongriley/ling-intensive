@@ -3,18 +3,6 @@ import ClassButton from '../components/ClassButton.svelte';
 import Link from '../components/Link.svelte';
 </script>
 
-<style>
-  .hero-height {
-    height: 50vh;
-  }
-  @media (max-height: 640px) {
-    .hero-height {
-      height: 100vh;
-    }
-  }
-
-</style>
-
 <div class="md:hero-height md:min-h-0 bg-gradient-to-b from-indigo-100 to-white">
   <div class="relative mx-auto max-w-screen-xl pt-12 md:pt-16 lg:pt-20 px-6 lg:px-16 xl:pt-28">
     <div class="sm:text-center lg:text-left">
