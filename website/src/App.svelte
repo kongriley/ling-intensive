@@ -42,7 +42,7 @@
 			<Link href="https://www.instagram.com/ling.intensive/" text="Instagram" />
 		</div>
 		<div>
-			<Link href="https://github.com/kongriley/ling-intensive" text="Github" />
+			<Link href="https://github.com/kongriley/ling-intensive" text="GitHub" />
 		</div>
 	</div>
 </div>
