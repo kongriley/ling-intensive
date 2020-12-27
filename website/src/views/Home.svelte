@@ -1,7 +1,6 @@
 <script>
 import ClassButton from '../components/ClassButton.svelte';
-
-  import SignupButton from '../components/SignupButton.svelte'
+import Link from '../components/Link.svelte';
 </script>
 
 <style>
@@ -53,9 +52,9 @@ import ClassButton from '../components/ClassButton.svelte';
 
     <div>
       LINT offers a free online course designed to prepare students in 7th to 12th grade for the
-      <a href="https://www.nacloweb.org/" class="text-indigo-600 hover:text-indigo-800">NACLO</a> 
+      <Link href="https://www.nacloweb.org/" text="NACLO" /> 
       (North American Computational Linguistics Olympiad) and the
-      <a href="https://ioling.org/" class="text-indigo-600 hover:text-indigo-800">IOL</a> 
+      <Link href="https://ioling.org/" text="IOL" /> 
       (International Linguistics Olympiad). 
       Students will investigate features of world languages, including grammar, phonetics, number systems, and writing systems, 
       along with topics in computational linguistics and analytic reasoning.

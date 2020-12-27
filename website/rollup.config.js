@@ -38,6 +38,7 @@ export default {
 	},
 	plugins: [
 		svelte({
+			hydratable: true,
 			preprocess: sveltePreprocess({ postcss: true }),
 			// enable run-time checks when not in production
 			dev: !production,
@@ -73,5 +74,5 @@ export default {
 	],
 	watch: {
 		clearScreen: false
-	}
+	},
 };
