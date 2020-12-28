@@ -49,6 +49,10 @@ import Link from '../components/Link.svelte'
             <td class="p-2 border border-gray-300">January 9</td>
             <td class="p-2 border border-gray-300">TBA</td>
           </tr>
+          <tr class="bg-red-200 text-gray-500">
+            <td class="p-2 border border-gray-300">January 15</td>
+            <td class="p-2 border border-gray-300">NACLO Registration Deadline</td>
+          </tr>
           <tr>
             <td class="p-2 border border-gray-300">January 23</td>
             <td class="p-2 border border-gray-300">TBA</td>
