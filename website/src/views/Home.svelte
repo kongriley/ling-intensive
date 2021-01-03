@@ -41,7 +41,7 @@ import Link from '../components/Link.svelte';
     <div>
       LINT offers a free online course designed to prepare students in 7th to 12th grade for the
       <Link href="https://www.nacloweb.org/" text="NACLO" /> 
-      (North American Computational Linguistics Olympiad) and the
+      (North American Computational Linguistics Open competition) and the
       <Link href="https://ioling.org/" text="IOL" /> 
       (International Linguistics Olympiad). 
       Students will investigate features of world languages, including grammar, phonetics, number systems, and writing systems, 

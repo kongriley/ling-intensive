@@ -28,7 +28,7 @@ import Link from '../components/Link.svelte'
   
         Comprehensive preparation for the
         <Link href="https://www.nacloweb.org/" text="NACLO" /> 
-        (North American Computational Linguistics Olympiad) and the
+        (North American Computational Linguistics Open competition) and the
         <Link href="https://ioling.org/" text="IOL" /> 
         (International Linguistics Olympiad). 
         Students will investigate features of world languages, including grammar, phonetics, number systems, and writing systems, 
@@ -47,7 +47,7 @@ import Link from '../components/Link.svelte'
         <tbody>
           <tr>
             <td class="p-2 border border-gray-300">January 9</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Introduction to NACLO</td>
           </tr>
           <tr class="bg-red-200 text-gray-500">
             <td class="p-2 border border-gray-300">January 15</td>
@@ -55,7 +55,7 @@ import Link from '../components/Link.svelte'
           </tr>
           <tr>
             <td class="p-2 border border-gray-300">January 23</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Languages of the World</td>
           </tr>
           <tr class="bg-red-200 text-gray-500">
             <td class="p-2 border border-gray-300">January 28</td>
@@ -63,19 +63,19 @@ import Link from '../components/Link.svelte'
           </tr>
           <tr>
             <td class="p-2 border border-gray-300">February 6</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Writing Systems</td>
           </tr>
           <tr>
             <td class="p-2 border border-gray-300">February 20</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Number Systems</td>
           </tr>
           <tr>
             <td class="p-2 border border-gray-300">March 6</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Computational Linguistics</td>
           </tr>
           <tr>
             <td class="p-2 border border-gray-300">March 20</td>
-            <td class="p-2 border border-gray-300">TBA</td>
+            <td class="p-2 border border-gray-300">Other Topics in Lingusitics</td>
           </tr>
         </tbody>
         
