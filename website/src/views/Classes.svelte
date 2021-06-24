@@ -84,8 +84,8 @@ import Link from '../components/Link.svelte'
       
       <div class="flex md:flex-col md:justify-end items-center md:absolute md:top-0 md:right-0 md:p-8">
         <SignupButton width=4 height=2/>
-        <div class="ml-2 md:mt-2">
-          Closes 1/6
+        <div class="ml-2 md:mt-2 text-red-600">
+          Closed!
         </div>
       </div>
 

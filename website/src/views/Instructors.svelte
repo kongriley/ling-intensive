@@ -13,7 +13,7 @@
       Founder
     </div>
     <div class="text-left text-sm md:text-md lg:text-lg text-gray-600 px-8 md:px-0 max-w-md ">
-      In his first year competing in NACLO, Riley earned a spot as a US team alternate in the 2020 IOL. He is working with a Yale professor on natural language processing.
+      Riley is a member of the US team in the 2021 IOL, earning 4th place at NACLO. He is working with a Yale professor on natural language processing.
       Besides linguistics, Riley enjoys coding, math, science, and playing the piano. 
     </div>
   </div>
